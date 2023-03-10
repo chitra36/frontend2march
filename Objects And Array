@@ -1,0 +1,11 @@
+const players = ['Sam', 'Sarah', 'Ryan', 'Poppy'];
+const team = players;
+
+let person = {
+    firstName: 'John',
+    lastName: 'Doe'
+};
+const team1=person;
+ const cap1 = [].concat(person);
+
+console.log(cap1);
